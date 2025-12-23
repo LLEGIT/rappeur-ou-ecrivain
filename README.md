@@ -1,36 +1,167 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎯 Rappeur ou Écrivain
 
-## Getting Started
+Un jeu quotidien mobile-first qui vous met au défi de deviner si une citation provient d'un rappeur ou d'un écrivain.
 
-First, run the development server:
+## 🚀 Stack Technique
+
+- **Framework**: Next.js 16 (App Router)
+- **Langage**: TypeScript
+- **Style**: Tailwind CSS 4
+- **Icônes**: Lucide React
+- **React**: Version 19
+
+## 🎮 Concept du Jeu
+
+### Règles
+1. **5 citations** sont affichées aléatoirement
+2. Pour chaque citation, vous devez deviner : **Rappeur** ou **Écrivain** ?
+3. Après votre réponse, découvrez l'auteur et le contexte
+4. **10 points** par bonne réponse
+
+### Système de Score
+- ✅ Bonne réponse: **10 points**
+- ❌ Mauvaise réponse: **0 point**
+- **Score maximum**: 50 points (5/5)
+
+## 🎨 Design UI
+
+### Thème
+- **Couleur principale**: Zinc-950 (fond sombre)
+- **Accents**:
+  - ✅ Succès: Emerald-500
+  - ❌ Erreur: Rose-500
+  - 🆘 Aide: Amber-500
+
+### Composants
+- Cartes avec bordures `border-zinc-800`
+- Animations fluides et transitions CSS
+- Feedback visuel fort (icônes Lucide React)
+- Design mobile-first responsive
+
+## 🛠️ Installation
 
 ```bash
+# Installer les dépendances
+npm install
+
+# Lancer en développement
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build pour production
+npm run build
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Le jeu sera accessible sur [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📚 Fichier quotes.json
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Format des citations :
 
-## Learn More
+```json
+{
+  "author": "Albert Camus",
+  "quote": "Au milieu de l'hiver, j'ai découvert en moi un invincible été.",
+  "context": "Retour à Tipasa"
+}
+```
 
-To learn more about Next.js, take a look at the following resources:
+Le fichier contient plus de 100 citations d'auteurs francophones classiques et contemporains.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧩 Composants Principaux
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### GameManager
+Gère l'état global du jeu :
+- Navigation entre les 5 citations
+- Calcul des scores
+- Gestion des phases (input, QCM, bonus, résultat)
+- Utilisation de `useActionState` pour les Server Actions
 
-## Deploy on Vercel
+### QuoteCard
+Affiche la citation avec typographie gaming :
+- Style carte moderne avec bordures Zinc-800
+- Affichage conditionnel de l'auteur et du contexte
+- Badge numéroté pour chaque citation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### InputController
+Gestion des entrées utilisateur :
+- Mode saisie libre par défaut
+- Basculement vers QCM avec 2 choix
+- Validation avec feedback visuel
+- Bouton d'aide intégré
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### BonusContext
+Phase bonus après avoir trouvé l'auteur :
+- Input dédié pour le contexte
+- Système de points bonus (+10)
+- Option de passer la question
+
+### ProgressBar
+Indicateur de progression style Wordle :
+- Affichage x/5 citations
+- Barre de progression animée
+- Score en temps réel
+
+## 🔧 Server Actions
+
+### checkAnswer
+```typescript
+checkAnswer({
+  answer: string,
+  quoteId: number,
+  type: 'author' | 'context',
+  correctAnswer: string
+})
+```
+
+Valide les réponses côté serveur avec normalisation flexible des chaînes.
+
+## 🌐 API Route
+
+### GET /api/quotes
+Retourne 5 citations aléatoires avec un auteur incorrect pour le QCM :
+
+```typescript
+{
+  quotes: GameQuote[]
+}
+```
+
+Chaque `GameQuote` contient :
+- `id`: Numéro de la citation (1-5)
+- `author`: Auteur correct
+- `quote`: Texte de la citation
+- `context`: Œuvre/contexte d'origine
+- `wrongAuthor`: Auteur incorrect pour le QCM
+
+## 🎯 Fonctionnalités React 19
+
+- **useActionState**: Gestion des Server Actions avec état
+- **useOptimistic**: Mises à jour optimistes de l'UI (prévu)
+- **Server Components**: Génération côté serveur des citations
+- **Server Actions**: Validation sécurisée des réponses
+
+## 📱 Responsive Design
+
+Le jeu est optimisé pour mobile-first :
+- Breakpoints Tailwind (sm, md, lg)
+- Layout flexible
+- Touch-friendly (boutons et zones de clic adaptées)
+
+## 🚀 Déploiement
+
+Le projet est prêt pour déploiement sur Vercel :
+
+```bash
+vercel
+```
+
+Ou toute plateforme supportant Next.js 16.
+
+## 📄 Licence
+
+MIT
+
+## 👤 Auteur
+
+Créé avec ❤️ en France

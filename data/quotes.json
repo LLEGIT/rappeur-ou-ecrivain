@@ -1,0 +1,602 @@
+[
+  {
+    "author": "Victor Hugo",
+    "quote": "Mélancolie, c'est le bonheur d'être triste.",
+    "context": "Les Travailleurs de la mer",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Damso",
+    "quote": "Le temps est mort, mon amour, l'éternité n'est qu'une seconde.",
+    "context": "Ipséité",
+    "type": "rappeur"
+  },
+  {
+    "author": "Albert Camus",
+    "quote": "Au milieu de l'hiver, j'apprenais enfin qu'il y avait en moi un été invincible.",
+    "context": "L'Été",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Booba",
+    "quote": "Le savoir est une arme, maintenant je sais pourquoi ils font des ratures.",
+    "context": "Temps Mort",
+    "type": "rappeur"
+  },
+  {
+    "author": "Charles Baudelaire",
+    "quote": "Il faut être toujours ivre. Tout est là : c'est l'unique question.",
+    "context": "Le Spleen de Paris",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Nekfeu",
+    "quote": "Les gens les plus solitaires sont les plus aimables.",
+    "context": "Cyborg",
+    "type": "rappeur"
+  },
+  {
+    "author": "Arthur Rimbaud",
+    "quote": "La vie est la farce à mener par tous.",
+    "context": "Une saison en enfer",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Oxmo Puccino",
+    "quote": "Le pardon est un luxe qu'on s'offre à soi-même.",
+    "context": "L'Enfant seul",
+    "type": "rappeur"
+  },
+  {
+    "author": "Jean-Paul Sartre",
+    "quote": "L'enfer, c'est les autres.",
+    "context": "Huis clos",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Orelsan",
+    "quote": "Si tu veux faire des films, t'as juste besoin d'un truc qui filme.",
+    "context": "Notes pour trop tard",
+    "type": "rappeur"
+  },
+  {
+    "author": "Marcel Proust",
+    "quote": "Le véritable voyage ne consiste pas à chercher de nouveaux paysages, mais à avoir de nouveaux yeux.",
+    "context": "À la recherche du temps perdu",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Freeze Corleone",
+    "quote": "Déterminé comme un esclave qui s'évade.",
+    "context": "LMF",
+    "type": "rappeur"
+  },
+  {
+    "author": "Simone de Beauvoir",
+    "quote": "On ne naît pas femme : on le devient.",
+    "context": "Le Deuxième Sexe",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Alpha Wann",
+    "quote": "Le succès, c'est de l'échec qui a mal tourné.",
+    "context": "UMLA",
+    "type": "rappeur"
+  },
+  {
+    "author": "Gustave Flaubert",
+    "quote": "Il n'y a pas de vérité. Il n'y a que des manières de voir.",
+    "context": "Correspondance",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Lino",
+    "quote": "Le monde appartient à ceux qui ne dorment pas parce qu'ils rêvent.",
+    "context": "Paradis Assassiné",
+    "type": "rappeur"
+  },
+  {
+    "author": "Stendhal",
+    "quote": "La parole a été donnée à l'homme pour cacher sa pensée.",
+    "context": "Le Rouge et le Noir",
+    "type": "ecrivain"
+  },
+  {
+    "author": "IAM",
+    "quote": "On n'est pas nés sous la même étoile.",
+    "context": "L'École du Micro d'Argent",
+    "type": "rappeur"
+  },
+  {
+    "author": "Paul Éluard",
+    "quote": "La terre est bleue comme une orange.",
+    "context": "L'Amour la poésie",
+    "type": "ecrivain"
+  },
+  {
+    "author": "SCH",
+    "quote": "Le prix à payer pour la liberté est moins élevé que celui pour la survie.",
+    "context": "A7",
+    "type": "rappeur"
+  },
+  {
+    "author": "Blaise Pascal",
+    "quote": "Le cœur a ses raisons que la raison ne connaît point.",
+    "context": "Pensées",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Lomepal",
+    "quote": "Tout ce que je sais faire, c'est me demander pourquoi je le fais.",
+    "context": "Flip",
+    "type": "rappeur"
+  },
+  {
+    "author": "Guy de Maupassant",
+    "quote": "Le baiser est la plus sûre façon de se taire en disant tout.",
+    "context": "Contes de la bécasse",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Disiz",
+    "quote": "J'ai les mains pleines de sang mais mon cœur est propre.",
+    "context": "L'Amour",
+    "type": "rappeur"
+  },
+  {
+    "author": "Émile Zola",
+    "quote": "Si vous me demandez ce que je suis venu faire en ce monde, je vous répondrai : je suis venu pour vivre haut et fort.",
+    "context": "Mes haines",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Kery James",
+    "quote": "C'est dans l'adversité qu'on reconnaît ses vrais amis.",
+    "context": "Le Combat Continue",
+    "type": "rappeur"
+  },
+  {
+    "author": "Antonin Artaud",
+    "quote": "Nul n'a jamais écrit ou peint, sculpté, modelé, construit, inventé, que pour sortir en fait de l'enfer.",
+    "context": "Van Gogh le suicidé de la société",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Gims",
+    "quote": "Le succès ne change pas les gens, il les révèle.",
+    "context": "Subliminal",
+    "type": "rappeur"
+  },
+  {
+    "author": "Colette",
+    "quote": "Il faut voir, et non inventer.",
+    "context": "La Vagabonde",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Vald",
+    "quote": "Le sens de la vie, c'est de trouver son propre sens.",
+    "context": "Agartha",
+    "type": "rappeur"
+  },
+  {
+    "author": "Louis-Ferdinand Céline",
+    "quote": "Voyager, c'est bien utile, ça fait travailler l'imagination.",
+    "context": "Voyage au bout de la nuit",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Kaaris",
+    "quote": "Le sang n'a pas la même odeur quand c'est le tien.",
+    "context": "Or Noir",
+    "type": "rappeur"
+  },
+  {
+    "author": "François Rabelais",
+    "quote": "Science sans conscience n'est que ruine de l'âme.",
+    "context": "Pantagruel",
+    "type": "ecrivain"
+  },
+  {
+    "author": "PNL",
+    "quote": "Le monde ou rien.",
+    "context": "Dans la légende",
+    "type": "rappeur"
+  },
+  {
+    "author": "Jean de La Fontaine",
+    "quote": "On rencontre souvent son destin par les chemins qu'on prend pour l'éviter.",
+    "context": "Fables",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Georgio",
+    "quote": "L'amour est un risque, la haine est une cage.",
+    "context": "Héra",
+    "type": "rappeur"
+  },
+  {
+    "author": "Alfred de Musset",
+    "quote": "Ah ! frappe-toi le cœur, c'est là qu'est le génie.",
+    "context": "Poésies nouvelles",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Soolking",
+    "quote": "La liberté n'a pas de prix mais elle a un coût.",
+    "context": "Fruit de la zone",
+    "type": "rappeur"
+  },
+  {
+    "author": "Denis Diderot",
+    "quote": "Mes pensées sont mes catins.",
+    "context": "Le Neveu de Rameau",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Youssoupha",
+    "quote": "On ne fait pas la guerre pour la paix, on fait la guerre pour gagner.",
+    "context": "Noir Désir",
+    "type": "rappeur"
+  },
+  {
+    "author": "Guillaume Apollinaire",
+    "quote": "Il est grand temps de rallumer les étoiles.",
+    "context": "Les Mamelles de Tirésias",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Rohff",
+    "quote": "La vie est un test de chaque instant.",
+    "context": "Le Code de l'horreur",
+    "type": "rappeur"
+  },
+  {
+    "author": "Honoré de Balzac",
+    "quote": "Derrière chaque grande fortune se cache un crime.",
+    "context": "Le Père Goriot",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Lacrim",
+    "quote": "On apprend plus dans une cellule que dans une école.",
+    "context": "Corleone",
+    "type": "rappeur"
+  },
+  {
+    "author": "Paul Valéry",
+    "quote": "Le vent se lève !... Il faut tenter de vivre !",
+    "context": "Le Cimetière marin",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Soprano",
+    "quote": "Mon cœur a des cicatrices que le temps n'efface pas.",
+    "context": "Puisqu'il faut vivre",
+    "type": "rappeur"
+  },
+  {
+    "author": "Romain Gary",
+    "quote": "L'humour est une déclaration de dignité.",
+    "context": "La Promesse de l'aube",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Niska",
+    "quote": "La victoire appartient à celui qui croit le plus.",
+    "context": "Commando",
+    "type": "rappeur"
+  },
+  {
+    "author": "Alphonse de Lamartine",
+    "quote": "Un seul être vous manque, et tout est dépeuplé.",
+    "context": "Méditations poétiques",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Dinos",
+    "quote": "On ne guérit pas du passé, on s'en accommode.",
+    "context": "Stamina",
+    "type": "rappeur"
+  },
+  {
+    "author": "André Gide",
+    "quote": "Il vaut mieux être détesté pour ce que l'on est que d'être aimé pour ce que l'on n'est pas.",
+    "context": "Journal",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Soseki",
+    "quote": "Je ne veux pas d'une vie normale, je veux une vie qui me ressemble.",
+    "context": "Inédit",
+    "type": "rappeur"
+  },
+  {
+    "author": "Molière",
+    "quote": "L'amour est souvent un fruit du mariage.",
+    "context": "Sganarelle",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Maes",
+    "quote": "Le respect se gagne, il ne se demande pas.",
+    "context": "Les derniers salopards",
+    "type": "rappeur"
+  },
+  {
+    "author": "Anatole France",
+    "quote": "L'avenir est caché même à ceux qui le font.",
+    "context": "L'Anneau d'améthyste",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Doc Gynéco",
+    "quote": "Je ne suis pas une star, je suis une comète.",
+    "context": "Première consultation",
+    "type": "rappeur"
+  },
+  {
+    "author": "Jean Cocteau",
+    "quote": "Puisque ces mystères nous dépassent, feignons d'en être l'organisateur.",
+    "context": "Les Mariés de la tour Eiffel",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Jid",
+    "quote": "Le silence est la plus haute forme de la pensée.",
+    "context": "Inédit",
+    "type": "rappeur"
+  },
+  {
+    "author": "Voltaire",
+    "quote": "J'ai décidé d'être heureux parce que c'est bon pour la santé.",
+    "context": "Correspondance",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Hatik",
+    "quote": "L'amour c'est comme le rap, ça demande du souffle.",
+    "context": "Chaise Pliante",
+    "type": "rappeur"
+  },
+  {
+    "author": "Stéphane Mallarmé",
+    "quote": "Un coup de dés jamais n'abolira le hasard.",
+    "context": "Poèmes",
+    "type": "ecrivain"
+  },
+  {
+    "author": "PLK",
+    "quote": "L'argent ne fait pas le bonheur, mais le bonheur ne remplit pas l'assiette.",
+    "context": "Enna",
+    "type": "rappeur"
+  },
+  {
+    "author": "Jean Genet",
+    "quote": "Créer, c'est toujours parler de l'enfance.",
+    "context": "Journal du voleur",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Jul",
+    "quote": "Le sang, on oublie pas d'où on vient.",
+    "context": "Dans ma paranoïa",
+    "type": "rappeur"
+  },
+  {
+    "author": "Boris Vian",
+    "quote": "Ce qui m'intéresse, ce n'est pas le bonheur de tous les hommes, c'est celui de chacun.",
+    "context": "L'Écume des jours",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Médine",
+    "quote": "La connaissance est une arme de construction massive.",
+    "context": "Arabian Panther",
+    "type": "rappeur"
+  },
+  {
+    "author": "Marguerite Yourcenar",
+    "quote": "Le temps est un grand sculpteur.",
+    "context": "Mémoires d'Hadrien",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Shay",
+    "quote": "Je ne suis pas une reine, je suis une légende.",
+    "context": "Antidote",
+    "type": "rappeur"
+  },
+  {
+    "author": "Chateaubriand",
+    "quote": "La forêt précède l'homme, le désert le suit.",
+    "context": "Génie du christianisme",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Gringe",
+    "quote": "On est des enfants gâtés qui ne savent plus quoi désirer.",
+    "context": "Enfant Lune",
+    "type": "rappeur"
+  },
+  {
+    "author": "Pierre Corneille",
+    "quote": "À vaincre sans péril, on triomphe sans gloire.",
+    "context": "Le Cid",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Ninho",
+    "quote": "Le destin ne fait pas de cadeaux, il ne fait que des prêts.",
+    "context": "Destin",
+    "type": "rappeur"
+  },
+  {
+    "author": "Charles Perrault",
+    "quote": "La patience est amère, mais son fruit est doux.",
+    "context": "Contes",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Gradur",
+    "quote": "L'homme descend du singe, mais le rappeur descend de la rue.",
+    "context": "L'homme au bob",
+    "type": "rappeur"
+  },
+  {
+    "author": "Antoine de Saint-Exupéry",
+    "quote": "Fais de ta vie un rêve, et d'un rêve, une réalité.",
+    "context": "Le Petit Prince",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Dosseh",
+    "quote": "La solitude est un bon endroit pour se rendre visite.",
+    "context": "Vidaloqa",
+    "type": "rappeur"
+  },
+  {
+    "author": "Michel de Montaigne",
+    "quote": "Parce que c'était lui, parce que c'était moi.",
+    "context": "Essais",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Zola",
+    "quote": "L'ambition n'a pas de limites, seulement des obstacles.",
+    "context": "Cicatrices",
+    "type": "rappeur"
+  },
+  {
+    "author": "André Malraux",
+    "quote": "La culture est ce qui a fait de l'homme autre chose qu'un accident de la nature.",
+    "context": "La Condition humaine",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Sadek",
+    "quote": "La trahison vient toujours de ceux en qui on a confiance.",
+    "context": "Nique le casino",
+    "type": "rappeur"
+  },
+  {
+    "author": "Georges Bernanos",
+    "quote": "L'espérance est une détermination de l'âme.",
+    "context": "Journal d'un curé de campagne",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Koba LaD",
+    "quote": "Le talent ne suffit pas si tu ne travailles pas plus que les autres.",
+    "context": "L'Affranchi",
+    "type": "rappeur"
+  },
+  {
+    "author": "Jean de La Bruyère",
+    "quote": "Tout est dit, et l'on vient trop tard depuis plus de sept mille ans qu'il y a des hommes.",
+    "context": "Les Caractères",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Tayc",
+    "quote": "L'amour est un parfum qu'on ne peut porter seul.",
+    "context": "Fleur froide",
+    "type": "rappeur"
+  },
+  {
+    "author": "Sacha Guitry",
+    "quote": "Le peu que je sais, c'est à mon ignorance que je le dois.",
+    "context": "Mémoires d'un tricheur",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Hugo TSR",
+    "quote": "La vérité blesse, mais le mensonge achève.",
+    "context": "Fenêtre sur rue",
+    "type": "rappeur"
+  },
+  {
+    "author": "Alain-Fournier",
+    "quote": "Je cherche une clé qui n'existe peut-être pas.",
+    "context": "Le Grand Meaulnes",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Hamza",
+    "quote": "La vie est une danse, il faut juste trouver le bon rythme.",
+    "context": "Paradise",
+    "type": "rappeur"
+  },
+  {
+    "author": "Françoise Sagan",
+    "quote": "Le bonheur, c'est d'être au moins deux pour avoir envie d'être seul.",
+    "context": "Bonjour tristesse",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Rim'K",
+    "quote": "Le bitume nous a tout appris, même à ne rien dire.",
+    "context": "Maghreb United",
+    "type": "rappeur"
+  },
+  {
+    "author": "Jacques Prévert",
+    "quote": "Il faudrait essayer d'être heureux, ne serait-ce que pour donner l'exemple.",
+    "context": "Paroles",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Heuss l'Enfoiré",
+    "quote": "L'élégance est la seule beauté qui ne se fane jamais.",
+    "context": "En esprit",
+    "type": "rappeur"
+  },
+  {
+    "author": "Marquis de Sade",
+    "quote": "Le bonheur n'est qu'un mot, mais un mot qui fait courir le monde.",
+    "context": "Justine",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Jok'Air",
+    "quote": "Les larmes sèchent, mais le cœur s'en souvient.",
+    "context": "Jok'Travolta",
+    "type": "rappeur"
+  },
+  {
+    "author": "George Sand",
+    "quote": "Gardez bien en vous ce trésor, la gentillesse.",
+    "context": "Correspondance",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Sofiane",
+    "quote": "La loyauté est une monnaie qui n'a pas de cours chez les traîtres.",
+    "context": "Affranchis",
+    "type": "rappeur"
+  },
+  {
+    "author": "Gustave Courbet",
+    "quote": "Il faut brûler les musées pour y voir clair.",
+    "context": "Lettres",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Kalash Criminel",
+    "quote": "La cagoule cache mon visage, pas mes convictions.",
+    "context": "La fosse aux lions",
+    "type": "rappeur"
+  },
+  {
+    "author": "René Char",
+    "quote": "Impose ta chance, serre ton bonheur et va vers ton risque.",
+    "context": "Les Matinaux",
+    "type": "ecrivain"
+  },
+  {
+    "author": "Oboy",
+    "quote": "Le ciel est gris mais l'avenir est brillant.",
+    "context": "Omega",
+    "type": "rappeur"
+  }
+]
