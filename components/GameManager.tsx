@@ -144,7 +144,7 @@ export default function GameManager({ initialQuotes }: GameManagerProps) {
           <button
             onClick={() => {
               localStorage.removeItem(STORAGE_KEY);
-              window.location.reload();
+              window.location.href = '/';
             }}
             className="w-full rounded-xl bg-emerald-600 px-6 py-3 font-semibold text-white transition-all duration-200 hover:bg-emerald-500"
           >

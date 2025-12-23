@@ -3,6 +3,10 @@ import quotesData from '@/data/quotes.json';
 import { Quote, GameQuote } from '@/types/game';
 import { BookOpen } from 'lucide-react';
 
+// Force dynamic rendering to get new quotes on each page load
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 // Fonction utilitaire pour sélectionner 5 citations aléatoires
 function getRandomQuotes(): GameQuote[] {
   const allQuotes = quotesData as Quote[];
